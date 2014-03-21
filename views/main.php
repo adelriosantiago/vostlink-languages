@@ -180,6 +180,10 @@
 				$data['project'] = 'treetalk';
 				$this->load->view('project_card', $data);
 			?>
+			<?php
+				$data['project'] = 'vostlink_trans';
+				$this->load->view('project_card', $data);
+			?>			
 			<li class='relative mix mix_all all omni' style='display: inline-block;  opacity: 1;'>
 				<a href="#" data-reveal-id="myModal" data-reveal>
 					<img src='/img/new_idea.jpg'alt='Upload your idea!'>

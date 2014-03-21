@@ -1,6 +1,6 @@
 <?php
 //Startup information
-$lang['value_proposition'] = "Change people's lives while learning";
+$lang['value_proposition'] = "Ändern Sie das Leben der Menschen beim Lernen";
 
 //Generic texts
 $lang['progress'] = "Current progress";

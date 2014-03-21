@@ -16,12 +16,12 @@
 			<a href='/'>
 				<img id='logo' class='relative' src='/img/vostlink-logo-big.png' />
 				<!-- <h5 id='slogan'>Find projects to skill-donate</h5> -->
-				<h5 id='slogan'>Change people's lives while learning</h5>
+				<h5 id='slogan'><?php echo lang('value_proposition'); ?></h5>
 			</a>
 		</div>
 		<div class='large-4 columns'>
 			<div class='row text-center'>
-				<p><a href='/page/switchLanguage/english'>English</a><span class='gray-white'> | </span><span>More languages soon...</span></p>
+				<p><a href='/page/switchLanguage/english'>English</a><span class='gray-white'> | </span><a href='/page/switchLanguage/spanish'>Español</a><span class='gray-white'> | </span><a href='/page/switchLanguage/german'>Deutsch</a></p>
 			</div>
 			<div class='row'>
 				<div class='row'>
