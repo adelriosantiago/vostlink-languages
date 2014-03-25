@@ -1,1 +1,529 @@
-<?php//Startup information$lang['value_proposition'] = "Mejora tu comunidad mientras aprendes";//Generic texts$lang['progress'] = "En progreso";$lang['progress_started'] = "Este proyecto acaba de comenzar. Sólo tenemos el concepto, bosquejos y probablemente algo de código.";$lang['progress_half'] = "¡Este proyecto está a la mitad de desarrollo!";$lang['progress_almost'] = "Este proyecto está casi terminado, aunque aún se necesita algo de trabajo.";$lang['progress_finished'] = "¡Este proyecto está prácticamente terminado! ¡Puedes descargarlo y usarlo!";//Scopes$lang['health'] = array(	'title' => 'Aplicaciones de Salud',	'description' => 'Aplicaciones que ayudan a las personas a cuidar su salud o prevenir futuras enfermedades.',	'icon' => 'fi-heart',	'image_id' => 1,);$lang['education'] = array(	'title' => 'Educación',	'description' => 'Aplicaciones que ayudan a estudiantes u organizaciones educativas.',	'icon' => 'fi-bookmark',	'image_id' => 0,);$lang['productivity'] = array(	'title' => 'Productividad',	'description' => 'Aplicaciones útiles para la vida cotidiana.',	'icon' => 'fi-wrench',	'image_id' => 2,);$lang['gaming'] = array(	'title' => 'Juegos',	'description' => 'Juegos y software de recreación.',	'icon' => 'fi-die-three',	'image_id' => 0,);$lang['special_needs'] = array(	'title' => 'Aplicaciones para necesidades especiales',	'description' => 'Aplicaciones para personas con discapacidades como parálisis cerebral, ceguera, mudez, autismo, etc.',	'icon' => 'fi-wheelchair',	'image_id' => 0,);//Courses$lang['android'] = array(	'title' => 'Apps para Android',	'description' => 'Aprende cómo crear tu propia app para Android.',	'image_id' => 5,	'level' => 'Principiante',);$lang['ios'] = array(	'title' => 'Apps para iOS',	'description' => 'Crea tu propia app para iOS',	'image_id' => 7,	'level' => 'Intermedio',);$lang['html5'] = array(	'title' => 'HTML5',	'description' => 'Crea una página web',	'image_id' => 22,	'level' => 'Principiante',);$lang['css3'] = array(	'title' => 'CSS3',	'description' => 'Dale diseño a tu sitio web.',	'image_id' => 23,	'level' => 'Intermedio',);$lang['html'] = array(	'title' => 'HTML',	'description' => 'Aprende a diseñar una página web',	'image_id' => 8,	'level' => 'Principiante',);$lang['php'] = array(	'title' => 'PHP',	'description' => 'Aprende PHP y perfecciona HTML.',	'image_id' => 0,	'level' => 'Principiante',);$lang['titanium'] = array(	'title' => 'Titanium Appccelerator',	'description' => 'Una plataforma que permite crear una app en poco tiempo y desarrollarla para Android/iOS/Blackberry al mismo tiempo.',	'image_id' => 11,	'level' => 'Principiante',);$lang['net'] = array(	'title' => '.NET',	'description' => 'Aprende a crear aplicaciones para Windows utilizando .NET',	'image_id' => 1,	'level' => 'Principiante',);$lang['csharp'] = array(	'title' => 'C# .NET',	'description' => 'Aprende a crear aplicaciones para Windows en C#',	'image_id' => 21,	'level' => 'Principiante',);$lang['joomla'] = array(	'title' => 'Joomla',	'description' => 'A framework to create websites in minutes',	'image_id' => 20,	'level' => 'Principiante',);$lang['java'] = array(	'title' => 'Java',	'description' => 'Create your own Java applications that will run almost everywhere',	'image_id' => 6,	'level' => 'Principiante',);$lang['trello'] = array(	'title' => 'Trello',	'description' => 'Project management tips and Trello',	'image_id' => 4,	'level' => 'Principiante',);$lang['ipcsdk'] = array(	'title' => 'Intel Perceptual SDK',	'description' => 'Learn how to perform face and gesture recognition',	'image_id' => 2,	'level' => 'Advanced',);$lang['aforge'] = array(	'title' => 'A Forge .NET',	'description' => 'Learn image processing with AForge framework',	'image_id' => 3,	'level' => 'Advanced',);$lang['mysql'] = array(	'title' => 'My SQL',	'description' => 'Create databases on mySQL',	'image_id' => 9,	'level' => 'Advanced',);$lang['javascript'] = array(	'title' => 'Javascript',	'description' => 'Discover how Javascript is useful for your site',	'image_id' => 12,	'level' => 'Intermedio',);$lang['perl'] = array(	'title' => 'perl',	'image_id' => 13,	'description' => 'A very useful high-level language',	'level' => 'Principiante',);$lang['python'] = array(	'title' => 'Python',	'description' => 'Probably the best programming language to learn for beginners',	'image_id' => 14,	'level' => 'Principiante',);$lang['ruby'] = array(	'title' => 'Ruby',	'description' => 'The best programming language to create sites in minutes',	'image_id' => 15,	'level' => 'Intermedio',);$lang['git'] = array(	'title' => 'Git',	'description' => 'Keep your code organized and open to collaboration with this version control',	'image_id' => 16,	'level' => 'Intermedio',);$lang['subversion'] = array(	'title' => 'Subversion',	'description' => 'The easiest version control for your projects',	'image_id' => 17,	'level' => 'Principiante',);$lang['wordpress'] = array(	'title' => 'Wordpress',	'description' => 'Start your own webpage in minutes',	'image_id' => 19,	'level' => 'Principiante',);$lang['joomla'] = array(	'title' => 'Joomla',	'description' => 'Create an amazing, very scalable website in minutes',	'image_id' => 20,	'level' => 'Principiante',);//Projects$lang['eyeclick'] = array(	'title' => 'Eyeclick',	'value_proposition' => 'Make click only by blinking',	'description' => 'This software is currently helping people with cerebral palsy to make click only by blinking.',	'long_description' => 'A person with cerebral palsy is generally unable to make click at will, the most common solution is to use a device called "buddy-button", however these big colored buttons are expensive (as much as 100 USD each) and may still not be situable for people with severe cerebral palsy. With this software people can already make click by blinking.',	'progress' => 95,	'stars' => 3,	'scope' => 'health|special_needs',	'techs' => 'net|ipcsdk|csharp',	'backers' => '',		'platforms' => 'fi-social-windows',	'thumbnail' => 'eyeclick.jpg',	'screenshots' => array		(			'eyeclick2.jpg|People with palsy are often unable to click.',			'eyeclick3.jpg|With EyeClick they can just blink to perform a click.',			'eyeclick4.jpg|When the camera is not connected.',		),			'repository' => 'https://github.com/Vostlink/EyeClick-en',	'trello' => '',	//'trello' => 'https://trello.com/b/1kzkiJhk/eyeclick',	'download_path' => 'EyeClick-installer',	'author-name' => 'Vostlink team',	'author-picture' => 'twitter-logo-colorized.png',	'author-location' => 'The world',);$lang['facemouse'] = array(	'title' => 'FaceMouse',	'value_proposition' => 'Control the mouse with your head',	'description' => 'Initially aimed to help people that lost one or both arms, this is an app that allows you to control the mouse with your head.',	'long_description' => 'With this software and a webcam people who are unable to move the mouse will be able to take control of it with their heads. This app will detect the location of the head and detect any movement of it, if you move your head to the right the mouse will quickly start moving to the right, look up and down to move the cursor accordingly.',	'progress' => 75,	'stars' => 1,	'scope' => 'health|special_needs',	'techs' => 'net|ipcsdk|csharp',	'backers' => '',		'platforms' => 'fi-social-windows',		'thumbnail' => 'facemouse.jpg',	'screenshots' => array		(			'facemouse2.jpg|Try playing Chess Titans (included on Windows 7) without hands!',			'facemouse3.jpg|To move the cursor just move your head, perform click by blinking.',			'facemouse4.jpg|When the camera is not connected (spanish translation)',		),			'repository' => 'https://github.com/Vostlink/FaceMouse-en',	'trello' => '',	//'trello' => 'https://trello.com/b/VUtdn9Td/facemouse',	'download_path' => 'FaceMouse-installer',	'author-name' => 'Unknown',	'author-picture' => 'twitter-logo-colorized.png',	'author-location' => 'The world',	);$lang['spherix'] = array(	'title' => 'Spherix',	'value_proposition' => 'A circular communicator',	'description' => 'A communicator to help people with psychomotor disabilities.',	'long_description' => 'This is a wish communicator for people with psychomotor disabilities, they way they can select the wishes is extremely straightforward as all the possibilities are shown in a big pizza-shaped layout with big buttons.',	'progress' => 10,	'stars' => 3,	'scope' => 'special_needs|health',	'techs' => 'titanium|net|csharp|android|ios',	'backers' => '',		'platforms' => 'fi-social-windows|fi-social-android|fi-social-apple',	'thumbnail' => 'spherix.jpg',	'screenshots' => array		(			'spherix.jpg|Concept of the app, a circular wish selector.'		),			'repository' => '',	'trello' => 'https://trello.com/b/P70Z71Jq/spherix',	'download_path' => '',	'author-name' => 'Vostlink team',	'author-picture' => 'twitter-logo-colorized.png',	'author-location' => 'The world',	);$lang['smartwindow'] = array(	'title' => 'Smartwindow',	'value_proposition' => 'Easily select which program to open',	'description' => 'For disabled people, this program allows them to open programs easily.',	'long_description' => 'Click a button is often a real challenge for people with psychomotor disabilities. With this program they no longer need to make click on small icons, they will be able to open a infinite grid that shows the most used programs in a big 3x3 grid.',	'progress' => 50,	'stars' => 1,	'scope' => 'special_needs|health|productivity',	'techs' => 'net|csharp',	'backers' => '',		'platforms' => 'fi-social-windows',		'thumbnail' => 'smartwindow.jpg',	'screenshots' => array		(			'smartwindow.jpg|Concept idea, the grid showing the most used programs.'		),			'repository' => '',	//'trello' => 'https://trello.com/b/ozDvWUpp/smartwindow',	'trello' => 'https://trello.com/b/mZIl06oj/sight-sound', //TODO: Solve this ugly fix	'download_path' => '',	'author-name' => 'Unknown',	'author-picture' => 'twitter-logo-colorized.png',	'author-location' => 'The world',	);$lang['eyefollower'] = array(	'title' => 'Eye Follower SDK',	'value_proposition' => 'Make programs that locate the iris',		'description' => 'A program/framework that allows eye-tracking with a webcam.',	'long_description' => 'This is a tool for developers, with this SDK programmers will be able to create programs on .NET that detect the location of the iris. This has several applications including health, gaming, market research, etc.',	'progress' => 50,	'stars' => 1,	'scope' => 'health|productivity',	'techs' => 'net|ipcsdk|csharp',	'backers' => '',	'platforms' => '',	'thumbnail' => 'eyefollower.jpg',	'screenshots' => array		(			'eyefollower.jpg|Eye-tracking has several medical applications.'		),			'repository' => '',	'trello' => '',	//'trello' => 'https://trello.com/b/PJHjEnFd/eyefollower',	'download_path' => '',	'author-name' => 'Vostlink team',	'author-picture' => 'twitter-logo-colorized.png',	'author-location' => 'The world',	);$lang['nunutzi'] = array(	'title' => 'Webpage for a local charity',	'value_proposition' => 'A webpage for this local charity',		'description' => 'A webpage for the local charity named Nunutzy-Kie that helps people with multiple disabilities in MÃ©xico.',	'long_description' => 'Nunutzi-kie is a Mexican local charity in the city of Guadalajara, Mexico. Currently they have a Blogspot page (http://blognunutzi.wordpress.com/2010/11/05/descripcion-de-c-a-m-nunutzi-kie-tv/) and they now are looking for a way to reach more people by having their own .com website. Join this project to help them have one!',	'progress' => 10,	'stars' => 1,	'scope' => 'health|education',	'techs' => 'wordpress',	'backers' => '',		'platforms' => '',	'thumbnail' => 'nunutzi.jpg',	'screenshots' => array		(			'nunutzi.jpg|Their logo.',		),			'repository' => '',	'trello' => '',	//'trello' => 'https://trello.com/b/iW3CZ91q/nunutzi-webpage',	'download_path' => '',	'author-name' => 'Jhonny',	'author-picture' => 'twitter-logo-colorized.png',	'author-location' => 'The world',	);$lang['sightsound'] = array(	'title' => 'Allow people to hear images',	'value_proposition' => 'Start listening the images',	'description' => 'By converting the images into sound a blind person can identify objects.',	'long_description' => "Every image we see, every figure we look at has an equivalent in sound.		Figures with sharp corners will sound more aggresively than softer things like clouds.		Take a look at this video that shows how pictures sound:		<br/>		<div class='text-center'>			<iframe width='420' height='315' src='//www.youtube.com/embed/8BGr1u-Oz8M' frameborder='0' allowfullscreen></iframe>		</div>		<br/>		This program will do a similar process with in a different approach, it will interpret images as a whole and produce a single		continuous sound so that the blind person will be able to immediatly hear a sound for every video frame that the webcam captures.		<br/>				<br/>				Here is a real sample of how it would work, right now it is done the hard way, by doing each step manually.		The program Sight-sound will automate this process in single device. Here are 2 sample images,		<br/>		<br/>		<div class='row'>			<div class='large-6 columns'>				<a href='/img/night.jpg' data-lightbox='sketches' title='Night city image.'>					<img class='rounded-image' src='/img/night.jpg'/>				</a>			</div>			<div class='large-6 columns'>				<div class=''>					<a href='/img/clouds.jpg' data-lightbox='sketches' title='Cloud landscape.'>						<img class='rounded-image' src='/img/clouds.jpg'/>					</a>				</div>			</div>		</div>		<br/>		When we convert bot images to its Fourier equivalent we get the following images,		<br/>		<br/>		<div class='row'>			<div class='large-6 columns'>				<a href='/img/night-fft.jpg' data-lightbox='sketches' title='Night city image in fourier.'>					<img class='rounded-image' src='/img/night-fft.jpg'/>				</a>			</div>			<div class='large-6 columns'>				<div class=''>					<a href='/img/clouds-fft.jpg' data-lightbox='sketches' title='Cloud landscape in fourier.'>						<img class='rounded-image' src='/img/clouds-fft.jpg'/>					</a>				</div>			</div>		</div>		<br/>		The images in Fourier are actually telling the shape of the image in a very peculiar way. Both images contain blank dots at the center of it, these are the \"soft objects\" objects, if the image contains \"fine objects\" then blank dots will start appearing far from the center of he image.		That's why the night city landscape image has blank dots that are far from the center, those diagonal shapes we see on the fourier are in fact the building covered with blank lines of reflectors.		",	'progress' => 10,	'stars' => 4,	'scope' => 'health|special_needs',	'techs' => 'net|csharp|aforge',	'backers' => '<blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/vostlink">@vostlink</a> I&#39;m backing this project: <a href="http://t.co/azvEDM1aTW">http://t.co/azvEDM1aTW</a> I would like to see it come true!</p>&mdash; Alejandro del RÃ­o (@adelriosantiago) <a href="https://twitter.com/adelriosantiago/statuses/446552907131809792">March 20, 2014</a></blockquote>',	'platforms' => 'fi-social-windows',	'thumbnail' => 'sightsound.jpg',	'screenshots' => array	(		'sightsound.jpg|The concept in a nutshell.',		'sightsound2.jpg|This is the process of the device and how it will convert the images into sound.',		'sightsound3.jpg|A preliminar sketch of the device.',	),	'repository' => '',	'trello' => 'https://trello.com/b/mZIl06oj/sight-sound',	'download_path' => '',	'author-name' => 'Gabo',	'author-picture' => 'twitter-logo-colorized.png',	'author-location' => 'The world',	);$lang['treetalk'] = array(	'title' => 'Easily select special needs',	'value_proposition' => 'A easy to use palsy communicator',		'description' => 'Selecting small icons is really difficult for people with a severe psychomotor disability. This wish selector splits small icons into 2 wide screen icons.',	'long_description' => 'People living with palsy are often unable to speak their wishes and needs. This is a huge trouble for them as they could be feeling bad inside themselves and not be able to communicate this. With this program they can communicate their wishes to others by selecting only two sides of a tablet screen.',	'progress' => 10,	'stars' => 2,	'scope' => 'special_needs|health',	'techs' => 'android|ios',	'backers' => '',		'platforms' => 'fi-social-android',	'thumbnail' => 'treetalk.jpg',	'screenshots' => array		(			'treetalk.jpg|The Tree Talk concept.'		),			'repository' => '',	'trello' => 'https://trello.com/b/Z1qihlIg/tree-talk',	'download_path' => '',	'author-name' => 'Vostlink team',	'author-picture' => 'twitter-logo-colorized.png',	'author-location' => 'The world',	);$lang['vostlink_trans'] = array(	'title' => 'Vostlink translations',	'value_proposition' => 'The website in multiple languages',		'description' => 'Translating the website into multiple languages is the way we plan to have impact in many parts of the world.',	'long_description' => 'It might seem strange that Vostlink itself is a project on Vostlink, however we are a crowdsourcing platform for projects that are under development and we are currently on BETA. Join this project and help Vostlink to be translated into several languages while you learn HTML, PHP and the amazing framework Codeigniter!',	'progress' => 50,	'stars' => 2,	'scope' => 'productivity',	'techs' => 'html|php|git',	'backers' => '',	'platforms' => '',	'thumbnail' => 'vostlink_trans.jpg',	'screenshots' => array		(			'vostlink_trans.jpg|The project official icon and a nice translation icon.'		),	'repository' => '',	'trello' => 'https://trello.com/b/m0YLdThb/vostlink-translations',	'download_path' => '',	'author-name' => 'Vostlink team',	'author-picture' => 'twitter-logo-colorized.png',	'author-location' => 'The world',	);//Projects//Seen on all projects$lang['project_scope'] = "Project scope";$lang['people_learned'] = "People learned";
+<?php
+//Startup information
+$lang['value_proposition'] = "Mejora tu comunidad mientras aprendes";
+
+//Generic texts
+$lang['progress'] = "En progreso";
+$lang['progress_started'] = "Este proyecto acaba de comenzar. Sólo tenemos el concepto, bosquejos y probablemente algo de código.";
+$lang['progress_half'] = "¡Este proyecto está a la mitad de desarrollo!";
+$lang['progress_almost'] = "Este proyecto está casi terminado, aunque aún se necesita algo de trabajo.";
+$lang['progress_finished'] = "¡Este proyecto está prácticamente terminado! ¡Puedes descargarlo y usarlo!";
+
+//Scopes
+$lang['health'] = array
+(
+	'title' => 'Aplicaciones de Salud',
+	'description' => 'Aplicaciones que ayudan a las personas a cuidar su salud o prevenir futuras enfermedades.',
+	'icon' => 'fi-heart',
+	'image_id' => 1,
+);
+
+$lang['education'] = array
+(
+	'title' => 'Educación',
+	'description' => 'Aplicaciones que ayudan a estudiantes u organizaciones educativas.',
+	'icon' => 'fi-bookmark',
+	'image_id' => 0,
+);
+
+$lang['productivity'] = array
+(
+	'title' => 'Productividad',
+	'description' => 'Aplicaciones útiles para la vida cotidiana.',
+	'icon' => 'fi-wrench',
+	'image_id' => 2,
+);
+
+$lang['gaming'] = array
+(
+	'title' => 'Juegos',
+	'description' => 'Juegos y software de recreación.',
+	'icon' => 'fi-die-three',
+	'image_id' => 0,
+);
+
+$lang['special_needs'] = array
+(
+	'title' => 'Aplicaciones para necesidades especiales',
+	'description' => 'Aplicaciones para personas con discapacidades como parálisis cerebral, ceguera, mudez, autismo, etc.',
+	'icon' => 'fi-wheelchair',
+	'image_id' => 0,
+);
+
+//Courses
+$lang['android'] = array
+(
+	'title' => 'Apps para Android',
+	'description' => 'Aprende cómo crear tu propia app para Android.',
+	'image_id' => 5,
+	'level' => 'Principiante',
+);
+
+$lang['ios'] = array
+(
+	'title' => 'Apps para iOS',
+	'description' => 'Crea tu propia app para iOS',
+	'image_id' => 7,
+	'level' => 'Intermedio',
+);
+
+$lang['html5'] = array
+(
+	'title' => 'HTML5',
+	'description' => 'Crea una página web',
+	'image_id' => 22,
+	'level' => 'Principiante',
+);
+
+$lang['css3'] = array
+(
+	'title' => 'CSS3',
+	'description' => 'Dale diseño a tu sitio web.',
+	'image_id' => 23,
+	'level' => 'Intermedio',
+);
+
+$lang['html'] = array
+(
+	'title' => 'HTML',
+	'description' => 'Aprende a diseñar una página web',
+	'image_id' => 8,
+	'level' => 'Principiante',
+);
+
+$lang['php'] = array
+(
+	'title' => 'PHP',
+	'description' => 'Aprende PHP y perfecciona HTML.',
+	'image_id' => 0,
+	'level' => 'Principiante',
+);
+
+$lang['titanium'] = array
+(
+	'title' => 'Titanium Appccelerator',
+	'description' => 'Una plataforma que permite crear una app en poco tiempo y desarrollarla para Android/iOS/Blackberry al mismo tiempo.',
+	'image_id' => 11,
+	'level' => 'Principiante',
+);
+
+$lang['net'] = array
+(
+	'title' => '.NET',
+	'description' => 'Aprende a crear aplicaciones para Windows utilizando .NET',
+	'image_id' => 1,
+	'level' => 'Principiante',
+);
+
+$lang['csharp'] = array
+(
+	'title' => 'C# .NET',
+	'description' => 'Aprende a crear aplicaciones para Windows en C#',
+	'image_id' => 21,
+	'level' => 'Principiante',
+);
+
+$lang['joomla'] = array
+(
+	'title' => 'Joomla',
+	'description' => 'Una plataforma para crear sitios web en minutos',
+	'image_id' => 20,
+	'level' => 'Principiante',
+);
+
+$lang['java'] = array
+(
+	'title' => 'Java',
+	'description' => 'Crea aplicaciones en Java que podrán ejecutarse en cualquier computadora',
+	'image_id' => 6,
+	'level' => 'Principiante',
+);
+
+$lang['trello'] = array
+(
+	'title' => 'Trello',
+	'description' => 'Project management tips and Trello',
+	'image_id' => 4,
+	'level' => 'Principiante',
+);
+
+$lang['ipcsdk'] = array
+(
+	'title' => 'Intel Perceptual SDK',
+	'description' => 'Learn how to perform face and gesture recognition',
+	'image_id' => 2,
+	'level' => 'Advanced',
+);
+
+$lang['aforge'] = array
+(
+	'title' => 'A Forge .NET',
+	'description' => 'Learn image processing with AForge framework',
+	'image_id' => 3,
+	'level' => 'Advanced',
+);
+
+$lang['mysql'] = array
+(
+	'title' => 'My SQL',
+	'description' => 'Create databases on mySQL',
+	'image_id' => 9,
+	'level' => 'Advanced',
+);
+
+$lang['javascript'] = array
+(
+	'title' => 'Javascript',
+	'description' => 'Discover how Javascript is useful for your site',
+	'image_id' => 12,
+	'level' => 'Intermedio',
+);
+
+$lang['perl'] = array
+(
+	'title' => 'perl',
+	'image_id' => 13,
+	'description' => 'A very useful high-level language',
+	'level' => 'Principiante',
+);
+
+$lang['python'] = array
+(
+	'title' => 'Python',
+	'description' => 'Probably the best programming language to learn for beginners',
+	'image_id' => 14,
+	'level' => 'Principiante',
+);
+
+$lang['ruby'] = array
+(
+	'title' => 'Ruby',
+	'description' => 'The best programming language to create sites in minutes',
+	'image_id' => 15,
+	'level' => 'Intermedio',
+);
+
+$lang['git'] = array
+(
+	'title' => 'Git',
+	'description' => 'Keep your code organized and open to collaboration with this version control',
+	'image_id' => 16,
+	'level' => 'Intermedio',
+);
+
+$lang['subversion'] = array
+(
+	'title' => 'Subversion',
+	'description' => 'The easiest version control for your projects',
+	'image_id' => 17,
+	'level' => 'Principiante',
+);
+
+$lang['wordpress'] = array
+(
+	'title' => 'Wordpress',
+	'description' => 'Start your own webpage in minutes',
+	'image_id' => 19,
+	'level' => 'Principiante',
+);
+
+$lang['joomla'] = array
+(
+	'title' => 'Joomla',
+	'description' => 'Create an amazing, very scalable website in minutes',
+	'image_id' => 20,
+	'level' => 'Principiante',
+);
+
+//Projects
+$lang['eyeclick'] = array
+(
+	'title' => 'Eyeclick',
+	'value_proposition' => 'Make click only by blinking',
+	'description' => 'This software is currently helping people with cerebral palsy to make click only by blinking.',
+	'long_description' => 'A person with cerebral palsy is generally unable to make click at will, the most common solution is to use a device called "buddy-button", however these big colored buttons are expensive (as much as 100 USD each) and may still not be situable for people with severe cerebral palsy. With this software people can already make click by blinking.',
+	'progress' => 95,
+	'stars' => 3,
+	'scope' => 'health|special_needs',
+	'techs' => 'net|ipcsdk|csharp',
+	'backers' => '',	
+	'platforms' => 'fi-social-windows',
+	'thumbnail' => 'eyeclick.jpg',
+	'screenshots' => array
+		(
+			'eyeclick2.jpg|People with palsy are often unable to click.',
+			'eyeclick3.jpg|With EyeClick they can just blink to perform a click.',
+			'eyeclick4.jpg|When the camera is not connected.',
+		),		
+	'repository' => 'https://github.com/Vostlink/EyeClick-en',
+	'trello' => '',
+	//'trello' => 'https://trello.com/b/1kzkiJhk/eyeclick',
+	'download_path' => 'EyeClick-installer',
+	'author-name' => 'Vostlink team',
+	'author-picture' => 'twitter-logo-colorized.png',
+	'author-location' => 'The world',
+);
+
+$lang['facemouse'] = array
+(
+	'title' => 'FaceMouse',
+	'value_proposition' => 'Control the mouse with your head',
+	'description' => 'Initially aimed to help people that lost one or both arms, this is an app that allows you to control the mouse with your head.',
+	'long_description' => 'With this software and a webcam people who are unable to move the mouse will be able to take control of it with their heads. This app will detect the location of the head and detect any movement of it, if you move your head to the right the mouse will quickly start moving to the right, look up and down to move the cursor accordingly.',
+	'progress' => 75,
+	'stars' => 1,
+	'scope' => 'health|special_needs',
+	'techs' => 'net|ipcsdk|csharp',
+	'backers' => '',	
+	'platforms' => 'fi-social-windows',	
+	'thumbnail' => 'facemouse.jpg',
+	'screenshots' => array
+		(
+			'facemouse2.jpg|Try playing Chess Titans (included on Windows 7) without hands!',
+			'facemouse3.jpg|To move the cursor just move your head, perform click by blinking.',
+			'facemouse4.jpg|When the camera is not connected (spanish translation)',
+		),		
+	'repository' => 'https://github.com/Vostlink/FaceMouse-en',
+	'trello' => '',
+	//'trello' => 'https://trello.com/b/VUtdn9Td/facemouse',
+	'download_path' => 'FaceMouse-installer',
+	'author-name' => 'Unknown',
+	'author-picture' => 'twitter-logo-colorized.png',
+	'author-location' => 'The world',	
+);
+
+$lang['spherix'] = array
+(
+	'title' => 'Spherix',
+	'value_proposition' => 'A circular communicator',
+	'description' => 'A communicator to help people with psychomotor disabilities.',
+	'long_description' => 'This is a wish communicator for people with psychomotor disabilities, they way they can select the wishes is extremely straightforward as all the possibilities are shown in a big pizza-shaped layout with big buttons.',
+	'progress' => 10,
+	'stars' => 3,
+	'scope' => 'special_needs|health',
+	'techs' => 'titanium|net|csharp|android|ios',
+	'backers' => '',	
+	'platforms' => 'fi-social-windows|fi-social-android|fi-social-apple',
+	'thumbnail' => 'spherix.jpg',
+	'screenshots' => array
+		(
+			'spherix.jpg|Concept of the app, a circular wish selector.'
+		),		
+	'repository' => '',
+	'trello' => 'https://trello.com/b/P70Z71Jq/spherix',
+	'download_path' => '',
+	'author-name' => 'Vostlink team',
+	'author-picture' => 'twitter-logo-colorized.png',
+	'author-location' => 'The world',	
+);
+
+$lang['smartwindow'] = array
+(
+	'title' => 'Smartwindow',
+	'value_proposition' => 'Easily select which program to open',
+	'description' => 'For disabled people, this program allows them to open programs easily.',
+	'long_description' => 'Click a button is often a real challenge for people with psychomotor disabilities. With this program they no longer need to make click on small icons, they will be able to open a infinite grid that shows the most used programs in a big 3x3 grid.',
+	'progress' => 50,
+	'stars' => 1,
+	'scope' => 'special_needs|health|productivity',
+	'techs' => 'net|csharp',
+	'backers' => '',	
+	'platforms' => 'fi-social-windows',	
+	'thumbnail' => 'smartwindow.jpg',
+	'screenshots' => array
+		(
+			'smartwindow.jpg|Concept idea, the grid showing the most used programs.'
+		),		
+	'repository' => '',
+	//'trello' => 'https://trello.com/b/ozDvWUpp/smartwindow',
+	'trello' => 'https://trello.com/b/mZIl06oj/sight-sound', //TODO: Solve this ugly fix
+	'download_path' => '',
+	'author-name' => 'Unknown',
+	'author-picture' => 'twitter-logo-colorized.png',
+	'author-location' => 'The world',	
+);
+
+$lang['eyefollower'] = array
+(
+	'title' => 'Eye Follower SDK',
+	'value_proposition' => 'Make programs that locate the iris',	
+	'description' => 'A program/framework that allows eye-tracking with a webcam.',
+	'long_description' => 'This is a tool for developers, with this SDK programmers will be able to create programs on .NET that detect the location of the iris. This has several applications including health, gaming, market research, etc.',
+	'progress' => 50,
+	'stars' => 1,
+	'scope' => 'health|productivity',
+	'techs' => 'net|ipcsdk|csharp',
+	'backers' => '',
+	'platforms' => '',
+	'thumbnail' => 'eyefollower.jpg',
+	'screenshots' => array
+		(
+			'eyefollower.jpg|Eye-tracking has several medical applications.'
+		),		
+	'repository' => '',
+	'trello' => '',
+	//'trello' => 'https://trello.com/b/PJHjEnFd/eyefollower',
+	'download_path' => '',
+	'author-name' => 'Vostlink team',
+	'author-picture' => 'twitter-logo-colorized.png',
+	'author-location' => 'The world',	
+);
+
+$lang['nunutzi'] = array
+(
+	'title' => 'Webpage for a local charity',
+	'value_proposition' => 'A webpage for this local charity',	
+	'description' => 'A webpage for the local charity named Nunutzy-Kie that helps people with multiple disabilities in MÃ©xico.',
+	'long_description' => 'Nunutzi-kie is a Mexican local charity in the city of Guadalajara, Mexico. Currently they have a Blogspot page (http://blognunutzi.wordpress.com/2010/11/05/descripcion-de-c-a-m-nunutzi-kie-tv/) and they now are looking for a way to reach more people by having their own .com website. Join this project to help them have one!',
+	'progress' => 10,
+	'stars' => 1,
+	'scope' => 'health|education',
+	'techs' => 'wordpress',
+	'backers' => '',	
+	'platforms' => '',
+	'thumbnail' => 'nunutzi.jpg',
+	'screenshots' => array
+		(
+			'nunutzi.jpg|Their logo.',
+		),		
+	'repository' => '',
+	'trello' => '',
+	//'trello' => 'https://trello.com/b/iW3CZ91q/nunutzi-webpage',
+	'download_path' => '',
+	'author-name' => 'Jhonny',
+	'author-picture' => 'twitter-logo-colorized.png',
+	'author-location' => 'The world',	
+);
+
+$lang['sightsound'] = array
+(
+	'title' => 'Allow people to hear images',
+	'value_proposition' => 'Start listening the images',
+	'description' => 'By converting the images into sound a blind person can identify objects.',
+	'long_description' => "Every image we see, every figure we look at has an equivalent in sound.
+		Figures with sharp corners will sound more aggresively than softer things like clouds.
+		Take a look at this video that shows how pictures sound:
+		<br/>
+		<div class='text-center'>
+			<iframe width='420' height='315' src='//www.youtube.com/embed/8BGr1u-Oz8M' frameborder='0' allowfullscreen></iframe>
+		</div>
+		<br/>
+		This program will do a similar process with in a different approach, it will interpret images as a whole and produce a single
+		continuous sound so that the blind person will be able to immediatly hear a sound for every video frame that the webcam captures.
+		<br/>		
+		<br/>		
+		Here is a real sample of how it would work, right now it is done the hard way, by doing each step manually.
+		The program Sight-sound will automate this process in single device. Here are 2 sample images,
+		<br/>
+		<br/>
+		<div class='row'>
+			<div class='large-6 columns'>
+				<a href='/img/night.jpg' data-lightbox='sketches' title='Night city image.'>
+					<img class='rounded-image' src='/img/night.jpg'/>
+				</a>
+			</div>
+			<div class='large-6 columns'>
+				<div class=''>
+					<a href='/img/clouds.jpg' data-lightbox='sketches' title='Cloud landscape.'>
+						<img class='rounded-image' src='/img/clouds.jpg'/>
+					</a>
+				</div>
+			</div>
+		</div>
+		<br/>
+		When we convert bot images to its Fourier equivalent we get the following images,
+		<br/>
+		<br/>
+		<div class='row'>
+			<div class='large-6 columns'>
+				<a href='/img/night-fft.jpg' data-lightbox='sketches' title='Night city image in fourier.'>
+					<img class='rounded-image' src='/img/night-fft.jpg'/>
+				</a>
+			</div>
+			<div class='large-6 columns'>
+				<div class=''>
+					<a href='/img/clouds-fft.jpg' data-lightbox='sketches' title='Cloud landscape in fourier.'>
+						<img class='rounded-image' src='/img/clouds-fft.jpg'/>
+					</a>
+				</div>
+			</div>
+		</div>
+		<br/>
+		The images in Fourier are actually telling the shape of the image in a very peculiar way. Both images contain blank dots at the center of it, these are the \"soft objects\" objects, if the image contains \"fine objects\" then blank dots will start appearing far from the center of he image.
+		That's why the night city landscape image has blank dots that are far from the center, those diagonal shapes we see on the fourier are in fact the building covered with blank lines of reflectors.
+		",
+	'progress' => 10,
+	'stars' => 4,
+	'scope' => 'health|special_needs',
+	'techs' => 'net|csharp|aforge',
+	'backers' => '<blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/vostlink">@vostlink</a> I&#39;m backing this project: <a href="http://t.co/azvEDM1aTW">http://t.co/azvEDM1aTW</a> I would like to see it come true!</p>&mdash; Alejandro del RÃ­o (@adelriosantiago) <a href="https://twitter.com/adelriosantiago/statuses/446552907131809792">March 20, 2014</a></blockquote>',
+	'platforms' => 'fi-social-windows',
+	'thumbnail' => 'sightsound.jpg',
+	'screenshots' => array
+	(
+		'sightsound.jpg|The concept in a nutshell.',
+		'sightsound2.jpg|This is the process of the device and how it will convert the images into sound.',
+		'sightsound3.jpg|A preliminar sketch of the device.',
+	),
+	'repository' => '',
+	'trello' => 'https://trello.com/b/mZIl06oj/sight-sound',
+	'download_path' => '',
+	'author-name' => 'Gabo',
+	'author-picture' => 'twitter-logo-colorized.png',
+	'author-location' => 'The world',	
+);
+
+$lang['treetalk'] = array
+(
+	'title' => 'Easily select special needs',
+	'value_proposition' => 'A easy to use palsy communicator',	
+	'description' => 'Selecting small icons is really difficult for people with a severe psychomotor disability. This wish selector splits small icons into 2 wide screen icons.',
+	'long_description' => 'People living with palsy are often unable to speak their wishes and needs. This is a huge trouble for them as they could be feeling bad inside themselves and not be able to communicate this. With this program they can communicate their wishes to others by selecting only two sides of a tablet screen.',
+	'progress' => 10,
+	'stars' => 2,
+	'scope' => 'special_needs|health',
+	'techs' => 'android|ios',
+	'backers' => '',	
+	'platforms' => 'fi-social-android',
+	'thumbnail' => 'treetalk.jpg',
+	'screenshots' => array
+		(
+			'treetalk.jpg|The Tree Talk concept.'
+		),		
+	'repository' => '',
+	'trello' => 'https://trello.com/b/Z1qihlIg/tree-talk',
+	'download_path' => '',
+	'author-name' => 'Vostlink team',
+	'author-picture' => 'twitter-logo-colorized.png',
+	'author-location' => 'The world',	
+);
+
+$lang['vostlink_trans'] = array
+(
+	'title' => 'Vostlink translations',
+	'value_proposition' => 'The website in multiple languages',	
+	'description' => 'Translating the website into multiple languages is the way we plan to have impact in many parts of the world.',
+	'long_description' => 'It might seem strange that Vostlink itself is a project on Vostlink, however we are a crowdsourcing platform for projects that are under development and we are currently on BETA. Join this project and help Vostlink to be translated into several languages while you learn HTML, PHP and the amazing framework Codeigniter!',
+	'progress' => 50,
+	'stars' => 2,
+	'scope' => 'productivity',
+	'techs' => 'html|php|git',
+	'backers' => '',
+	'platforms' => '',
+	'thumbnail' => 'vostlink_trans.jpg',
+	'screenshots' => array
+		(
+			'vostlink_trans.jpg|The project official icon and a nice translation icon.'
+		),
+	'repository' => '',
+	'trello' => 'https://trello.com/b/m0YLdThb/vostlink-translations',
+	'download_path' => '',
+	'author-name' => 'Vostlink team',
+	'author-picture' => 'twitter-logo-colorized.png',
+	'author-location' => 'The world',	
+);
+
+//Projects
+//Seen on all projects
+$lang['project_scope'] = "Project scope";
+$lang['people_learned'] = "People learned";
