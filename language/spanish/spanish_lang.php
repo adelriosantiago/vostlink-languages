@@ -142,7 +142,7 @@ $lang['java'] = array
 $lang['trello'] = array
 (
 	'title' => 'Trello',
-	'description' => 'Project management tips and Trello',
+	'description' => 'Tips para administrar proyectos y utilizar Trello',
 	'image_id' => 4,
 	'level' => 'Principiante',
 );
@@ -150,31 +150,31 @@ $lang['trello'] = array
 $lang['ipcsdk'] = array
 (
 	'title' => 'Intel Perceptual SDK',
-	'description' => 'Learn how to perform face and gesture recognition',
+	'description' => 'Aprende a implementar reconocimiento de rostros y gestos',
 	'image_id' => 2,
-	'level' => 'Advanced',
+	'level' => 'Avanzado',
 );
 
 $lang['aforge'] = array
 (
 	'title' => 'A Forge .NET',
-	'description' => 'Learn image processing with AForge framework',
+	'description' => 'Aprende procesamiento de imágenes con la plataforma de AForge',
 	'image_id' => 3,
-	'level' => 'Advanced',
+	'level' => 'Avanzado',
 );
 
 $lang['mysql'] = array
 (
 	'title' => 'My SQL',
-	'description' => 'Create databases on mySQL',
+	'description' => 'Crea bases de datos en mySQL',
 	'image_id' => 9,
-	'level' => 'Advanced',
+	'level' => 'Avanzado',
 );
 
 $lang['javascript'] = array
 (
 	'title' => 'Javascript',
-	'description' => 'Discover how Javascript is useful for your site',
+	'description' => 'Descubre cómo puede ser útil Javascript en tu sitio web',
 	'image_id' => 12,
 	'level' => 'Intermedio',
 );
@@ -183,14 +183,14 @@ $lang['perl'] = array
 (
 	'title' => 'perl',
 	'image_id' => 13,
-	'description' => 'A very useful high-level language',
+	'description' => 'Un lenguaje de alto nivel muy útil',
 	'level' => 'Principiante',
 );
 
 $lang['python'] = array
 (
 	'title' => 'Python',
-	'description' => 'Probably the best programming language to learn for beginners',
+	'description' => 'Probablemente el mejor lenguaje de programación para aprender para principiantes',
 	'image_id' => 14,
 	'level' => 'Principiante',
 );
@@ -198,7 +198,7 @@ $lang['python'] = array
 $lang['ruby'] = array
 (
 	'title' => 'Ruby',
-	'description' => 'The best programming language to create sites in minutes',
+	'description' => 'El mejor lenguaje de programación para crear sitios web en minutos',
 	'image_id' => 15,
 	'level' => 'Intermedio',
 );
@@ -206,7 +206,7 @@ $lang['ruby'] = array
 $lang['git'] = array
 (
 	'title' => 'Git',
-	'description' => 'Keep your code organized and open to collaboration with this version control',
+	'description' => 'Mantén tu código organizado y listo para colaborar con otros con este controlador de versiones',
 	'image_id' => 16,
 	'level' => 'Intermedio',
 );
@@ -214,7 +214,7 @@ $lang['git'] = array
 $lang['subversion'] = array
 (
 	'title' => 'Subversion',
-	'description' => 'The easiest version control for your projects',
+	'description' => 'El controlador de versiones para tus proyectos más fácil de usar',
 	'image_id' => 17,
 	'level' => 'Principiante',
 );
@@ -222,7 +222,7 @@ $lang['subversion'] = array
 $lang['wordpress'] = array
 (
 	'title' => 'Wordpress',
-	'description' => 'Start your own webpage in minutes',
+	'description' => 'Comienza tu propia página web en minutos',
 	'image_id' => 19,
 	'level' => 'Principiante',
 );
@@ -230,7 +230,7 @@ $lang['wordpress'] = array
 $lang['joomla'] = array
 (
 	'title' => 'Joomla',
-	'description' => 'Create an amazing, very scalable website in minutes',
+	'description' => 'Crea un increíble sitio web fácil de administrar en minutos',
 	'image_id' => 20,
 	'level' => 'Principiante',
 );
@@ -239,9 +239,9 @@ $lang['joomla'] = array
 $lang['eyeclick'] = array
 (
 	'title' => 'Eyeclick',
-	'value_proposition' => 'Make click only by blinking',
-	'description' => 'This software is currently helping people with cerebral palsy to make click only by blinking.',
-	'long_description' => 'A person with cerebral palsy is generally unable to make click at will, the most common solution is to use a device called "buddy-button", however these big colored buttons are expensive (as much as 100 USD each) and may still not be situable for people with severe cerebral palsy. With this software people can already make click by blinking.',
+	'value_proposition' => 'Haz click con un parpadeo',
+	'description' => 'Este software actualmente está ayudando a personas con parálisis cerebral, permitiendo hacer click solamente con un parpadeo',
+	'long_description' => 'Una persona con parálisis cerebral generalmente es incapaz de hacer click utilizando un mouse. La solución más común es utilizar un dispositivo llamado "buddy-button", aunque estos grandes botones tienen un precio elevado (hasta 100 dólares cada uno) y aún así pueden no ser muy apropiados para las personas con parálisis cerebral severo. Con este software que Voslink ofrece, las personas pueden hacer click con sólo parpadear.',
 	'progress' => 95,
 	'stars' => 3,
 	'scope' => 'health|special_needs',
@@ -251,9 +251,9 @@ $lang['eyeclick'] = array
 	'thumbnail' => 'eyeclick.jpg',
 	'screenshots' => array
 		(
-			'eyeclick2.jpg|People with palsy are often unable to click.',
-			'eyeclick3.jpg|With EyeClick they can just blink to perform a click.',
-			'eyeclick4.jpg|When the camera is not connected.',
+			'eyeclick2.jpg|A las personas con parálisis se les dificulta hacer click',
+			'eyeclick3.jpg|Con EyeClick ellos sólo necesitan parpadear para dar un click.',
+			'eyeclick4.jpg|Cuando la cámara no está conectada.',
 		),		
 	'repository' => 'https://github.com/Vostlink/EyeClick-en',
 	'trello' => '',
