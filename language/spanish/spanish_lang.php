@@ -498,6 +498,46 @@ $lang['treetalk'] = array
 	'author-location' => 'The world',	
 );
 
+$lang['vihas'] = array
+(
+	'title' => 'Help with the website design',
+	'value_proposition' => 'Vihas de Vida is a organization that needs help with their website',
+	'description' => 'Vihas de Vida is a mexican organization located at the heart of Guadalajara city. They need help with their website.',
+	'long_description' => 'Vihas de Vida is a mexican organization located at the heart of Guadalajara city.
+		Their mission is to help people know how to protect themselves from sexually transmitted diseases, among all the services they offer we can find: 
+		<ul>
+			<li>Sensibilization workshops to teach people about STD\'s.</li>
+			<li>HIV preemptive tests</li>
+			<li>Psicological advice to people who already have a STD.</li>
+		</ul>
+		They currently have a Wordpress website (<a href="http://vihasdevida.org">http://vihasdevida.org</a>) which is almost finalized, they need help giving the website the last touches.
+		The goals of this project are:
+		<br/><br/>
+		<ul>
+			<li>Finish the View team, Work areas and Events sections.</li>
+			<li>Translate the website into english.</li>
+		</ul>
+		You will learn Wordpress along with IT experts that will guide your through the journey.
+		',
+	'progress' => 70,
+	'stars' => 3,
+	'scope' => 'health',
+	'techs' => 'wordpress',
+	'backers' => '',
+	'platforms' => '',
+	'thumbnail' => 'vihas.jpg',
+	'screenshots' => array
+		(
+			'vihas.jpg|Vihas de Vida logo.'
+		),
+	'repository' => '',
+	'trello' => '',
+	'download_path' => '',
+	'author-name' => 'Vostlink team',
+	'author-picture' => 'twitter-logo-colorized.png',
+	'author-location' => 'The world',	
+);
+
 $lang['vostlink_trans'] = array
 (
 	'title' => 'Vostlink translations',
