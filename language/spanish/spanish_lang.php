@@ -1,51 +1,51 @@
 <?php
 //Startup information
-$lang['value_proposition'] = "Mejora tu comunidad mientras aprendes";
+$lang['value_proposition'] = "Change people's lives while learning";
 
 //Generic texts
-$lang['progress'] = "En progreso";
-$lang['progress_started'] = "Este proyecto acaba de comenzar. Sólo tenemos el concepto, bosquejos y probablemente algo de código.";
-$lang['progress_half'] = "¡Este proyecto está a la mitad de desarrollo!";
-$lang['progress_almost'] = "Este proyecto está casi terminado, aunque aún se necesita algo de trabajo.";
-$lang['progress_finished'] = "¡Este proyecto está prácticamente terminado! ¡Puedes descargarlo y usarlo!";
+$lang['progress'] = "Current progress";
+$lang['progress_started'] = "This project just started. We have only the idea concept, sketches and probably some code.";
+$lang['progress_half'] = "This project is half on its way!";
+$lang['progress_almost'] = "This project is almost finished, still some work is needed.";
+$lang['progress_finished'] = "This project is practically finished! You can download it and use it!";
 
 //Scopes
 $lang['health'] = array
 (
-	'title' => 'Aplicaciones de Salud',
-	'description' => 'Aplicaciones que ayudan a las personas a cuidar su salud o prevenir futuras enfermedades.',
+	'title' => 'Health applications',
+	'description' => 'Any app that aims to improve people\'s health or helps them prevent future diseases.',
 	'icon' => 'fi-heart',
 	'image_id' => 1,
 );
 
 $lang['education'] = array
 (
-	'title' => 'Educación',
-	'description' => 'Aplicaciones que ayudan a estudiantes u organizaciones educativas.',
+	'title' => 'Education',
+	'description' => 'Applications that will help students or educational organizations.',
 	'icon' => 'fi-bookmark',
 	'image_id' => 0,
 );
 
 $lang['productivity'] = array
 (
-	'title' => 'Productividad',
-	'description' => 'Aplicaciones útiles para la vida cotidiana.',
+	'title' => 'Productivity',
+	'description' => 'Applications for people with special needs like cerebral palsy, autism, blindness, muteness, etc.',
 	'icon' => 'fi-wrench',
 	'image_id' => 2,
 );
 
 $lang['gaming'] = array
 (
-	'title' => 'Juegos',
-	'description' => 'Juegos y software de recreación.',
+	'title' => 'Gaming',
+	'description' => 'Games and recreational software.',
 	'icon' => 'fi-die-three',
 	'image_id' => 0,
 );
 
 $lang['special_needs'] = array
 (
-	'title' => 'Aplicaciones para necesidades especiales',
-	'description' => 'Aplicaciones para personas con discapacidades como parálisis cerebral, ceguera, mudez, autismo, etc.',
+	'title' => 'Applications for special needs',
+	'description' => 'Applications for people with special needs like cerebral palsy, autism, blindness, muteness, etc.',
 	'icon' => 'fi-wheelchair',
 	'image_id' => 0,
 );
@@ -53,195 +53,195 @@ $lang['special_needs'] = array
 //Courses
 $lang['android'] = array
 (
-	'title' => 'Apps para Android',
-	'description' => 'Aprende cómo crear tu propia app para Android.',
+	'title' => 'Android apps',
+	'description' => 'Learn how to create your own Android app',
 	'image_id' => 5,
-	'level' => 'Principiante',
+	'level' => 'Beginner',
 );
 
 $lang['ios'] = array
 (
-	'title' => 'Apps para iOS',
-	'description' => 'Crea tu propia app para iOS',
+	'title' => 'iOS apps',
+	'description' => 'Create your own iOS app',
 	'image_id' => 7,
-	'level' => 'Intermedio',
+	'level' => 'Intermediate',
 );
 
 $lang['html5'] = array
 (
 	'title' => 'HTML5',
-	'description' => 'Crea una página web',
+	'description' => 'Create a webpage',
 	'image_id' => 22,
-	'level' => 'Principiante',
+	'level' => 'Beginner',
 );
 
 $lang['css3'] = array
 (
 	'title' => 'CSS3',
-	'description' => 'Dale diseño a tu sitio web.',
+	'description' => 'Give your website a design',
 	'image_id' => 23,
-	'level' => 'Intermedio',
+	'level' => 'Intermediate',
 );
 
 $lang['html'] = array
 (
 	'title' => 'HTML',
-	'description' => 'Aprende a diseñar una página web',
+	'description' => 'Learn how to design a webpage',
 	'image_id' => 8,
-	'level' => 'Principiante',
+	'level' => 'Beginner',
 );
 
 $lang['php'] = array
 (
 	'title' => 'PHP',
-	'description' => 'Aprende PHP y perfecciona HTML.',
+	'description' => 'Learn PHP and give HTML a boost',
 	'image_id' => 0,
-	'level' => 'Principiante',
+	'level' => 'Beginner',
 );
 
 $lang['titanium'] = array
 (
-	'title' => 'Titanium Appccelerator',
-	'description' => 'Una plataforma que permite crear una app en poco tiempo y desarrollarla para Android/iOS/Blackberry al mismo tiempo.',
+	'title' => 'Titanium Appaccelerator',
+	'description' => 'A framework that allows you to create an app in minutes and deploy it to Android/iOS/Blackberry at once',
 	'image_id' => 11,
-	'level' => 'Principiante',
+	'level' => 'Beginner',
 );
 
 $lang['net'] = array
 (
 	'title' => '.NET',
-	'description' => 'Aprende a crear aplicaciones para Windows utilizando .NET',
+	'description' => 'Learn to create Windows apps',
 	'image_id' => 1,
-	'level' => 'Principiante',
+	'level' => 'Beginner',
 );
 
 $lang['csharp'] = array
 (
 	'title' => 'C# .NET',
-	'description' => 'Aprende a crear aplicaciones para Windows en C#',
+	'description' => 'Learn to create Windows apps',
 	'image_id' => 21,
-	'level' => 'Principiante',
+	'level' => 'Beginner',
 );
 
 $lang['joomla'] = array
 (
 	'title' => 'Joomla',
-	'description' => 'Una plataforma para crear sitios web en minutos',
+	'description' => 'A framework to create websites in minutes',
 	'image_id' => 20,
-	'level' => 'Principiante',
+	'level' => 'Beginner',
 );
 
 $lang['java'] = array
 (
 	'title' => 'Java',
-	'description' => 'Crea aplicaciones en Java que podrán ejecutarse en cualquier computadora',
+	'description' => 'Create your own Java applications that will run almost everywhere',
 	'image_id' => 6,
-	'level' => 'Principiante',
+	'level' => 'Beginner',
 );
 
 $lang['trello'] = array
 (
 	'title' => 'Trello',
-	'description' => 'Tips para administrar proyectos y utilizar Trello',
+	'description' => 'Project management tips and Trello',
 	'image_id' => 4,
-	'level' => 'Principiante',
+	'level' => 'Beginner',
 );
 
 $lang['ipcsdk'] = array
 (
 	'title' => 'Intel Perceptual SDK',
-	'description' => 'Aprende a implementar reconocimiento de rostros y gestos',
+	'description' => 'Learn how to perform face and gesture recognition',
 	'image_id' => 2,
-	'level' => 'Avanzado',
+	'level' => 'Advanced',
 );
 
 $lang['aforge'] = array
 (
 	'title' => 'A Forge .NET',
-	'description' => 'Aprende procesamiento de imágenes con la plataforma de AForge',
+	'description' => 'Learn image processing with AForge framework',
 	'image_id' => 3,
-	'level' => 'Avanzado',
+	'level' => 'Advanced',
 );
 
 $lang['mysql'] = array
 (
 	'title' => 'My SQL',
-	'description' => 'Crea bases de datos en mySQL',
+	'description' => 'Create databases on mySQL',
 	'image_id' => 9,
-	'level' => 'Avanzado',
+	'level' => 'Advanced',
 );
 
 $lang['javascript'] = array
 (
 	'title' => 'Javascript',
-	'description' => 'Descubre cómo puede ser útil Javascript en tu sitio web',
+	'description' => 'Discover how Javascript is useful for your site',
 	'image_id' => 12,
-	'level' => 'Intermedio',
+	'level' => 'Intermediate',
 );
 
 $lang['perl'] = array
 (
 	'title' => 'perl',
 	'image_id' => 13,
-	'description' => 'Un lenguaje de alto nivel muy útil',
-	'level' => 'Principiante',
+	'description' => 'A very useful high-level language',
+	'level' => 'Beginner',
 );
 
 $lang['python'] = array
 (
 	'title' => 'Python',
-	'description' => 'Probablemente el mejor lenguaje de programación para aprender para principiantes',
+	'description' => 'Probably the best programming language to learn for beginners',
 	'image_id' => 14,
-	'level' => 'Principiante',
+	'level' => 'Beginner',
 );
 
 $lang['ruby'] = array
 (
 	'title' => 'Ruby',
-	'description' => 'El mejor lenguaje de programación para crear sitios web en minutos',
+	'description' => 'The best programming language to create sites in minutes',
 	'image_id' => 15,
-	'level' => 'Intermedio',
+	'level' => 'Intermediate',
 );
 
 $lang['git'] = array
 (
 	'title' => 'Git',
-	'description' => 'Mantén tu código organizado y listo para colaborar con otros con este controlador de versiones',
+	'description' => 'Keep your code organized and open to collaboration with this version control',
 	'image_id' => 16,
-	'level' => 'Intermedio',
+	'level' => 'Intermediate',
 );
 
 $lang['subversion'] = array
 (
 	'title' => 'Subversion',
-	'description' => 'El controlador de versiones para tus proyectos más fácil de usar',
+	'description' => 'The easiest version control for your projects',
 	'image_id' => 17,
-	'level' => 'Principiante',
+	'level' => 'Beginner',
 );
 
 $lang['wordpress'] = array
 (
 	'title' => 'Wordpress',
-	'description' => 'Comienza tu propia página web en minutos',
+	'description' => 'Start your own webpage in minutes',
 	'image_id' => 19,
-	'level' => 'Principiante',
+	'level' => 'Beginner',
 );
 
 $lang['joomla'] = array
 (
 	'title' => 'Joomla',
-	'description' => 'Crea un increíble sitio web fácil de administrar en minutos',
+	'description' => 'Create an amazing, very scalable website in minutes',
 	'image_id' => 20,
-	'level' => 'Principiante',
+	'level' => 'Beginner',
 );
 
 //Projects
 $lang['eyeclick'] = array
 (
 	'title' => 'Eyeclick',
-	'value_proposition' => 'Haz click con un parpadeo',
-	'description' => 'Este software actualmente está ayudando a personas con parálisis cerebral, permitiendo hacer click solamente con un parpadeo',
-	'long_description' => 'Una persona con parálisis cerebral generalmente es incapaz de hacer click utilizando un mouse. La solución más común es utilizar un dispositivo llamado "buddy-button", aunque estos grandes botones tienen un precio elevado (hasta 100 dólares cada uno) y aún así pueden no ser muy apropiados para las personas con parálisis cerebral severo. Con este software que Voslink ofrece, las personas pueden hacer click con sólo parpadear.',
+	'value_proposition' => 'Make click only by blinking',
+	'description' => 'This software is currently helping people with cerebral palsy to make click only by blinking.',
+	'long_description' => 'A person with cerebral palsy is generally unable to make click at will, the most common solution is to use a device called "buddy-button", however these big colored buttons are expensive (as much as 100 USD each) and may still not be situable for people with severe cerebral palsy. With this software people can already make click by blinking.',
 	'progress' => 95,
 	'stars' => 3,
 	'scope' => 'health|special_needs',
@@ -251,9 +251,9 @@ $lang['eyeclick'] = array
 	'thumbnail' => 'eyeclick.jpg',
 	'screenshots' => array
 		(
-			'eyeclick2.jpg|A las personas con parálisis se les dificulta hacer click',
-			'eyeclick3.jpg|Con EyeClick ellos sólo necesitan parpadear para dar un click.',
-			'eyeclick4.jpg|Cuando la cámara no está conectada.',
+			'eyeclick2.jpg|People with palsy are often unable to click.',
+			'eyeclick3.jpg|With EyeClick they can just blink to perform a click.',
+			'eyeclick4.jpg|When the camera is not connected.',
 		),		
 	'repository' => 'https://github.com/Vostlink/EyeClick-en',
 	'trello' => '',
@@ -373,7 +373,7 @@ $lang['nunutzi'] = array
 (
 	'title' => 'Webpage for a local charity',
 	'value_proposition' => 'A webpage for this local charity',	
-	'description' => 'A webpage for the local charity named Nunutzy-Kie that helps people with multiple disabilities in MÃ©xico.',
+	'description' => 'A webpage for the local charity named Nunutzy-Kie that helps people with multiple disabilities in México.',
 	'long_description' => 'Nunutzi-kie is a Mexican local charity in the city of Guadalajara, Mexico. Currently they have a Blogspot page (http://blognunutzi.wordpress.com/2010/11/05/descripcion-de-c-a-m-nunutzi-kie-tv/) and they now are looking for a way to reach more people by having their own .com website. Join this project to help them have one!',
 	'progress' => 10,
 	'stars' => 1,
@@ -456,7 +456,7 @@ $lang['sightsound'] = array
 	'stars' => 4,
 	'scope' => 'health|special_needs',
 	'techs' => 'net|csharp|aforge',
-	'backers' => '<blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/vostlink">@vostlink</a> I&#39;m backing this project: <a href="http://t.co/azvEDM1aTW">http://t.co/azvEDM1aTW</a> I would like to see it come true!</p>&mdash; Alejandro del RÃ­o (@adelriosantiago) <a href="https://twitter.com/adelriosantiago/statuses/446552907131809792">March 20, 2014</a></blockquote>',
+	'backers' => '<blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/vostlink">@vostlink</a> I&#39;m backing this project: <a href="http://t.co/azvEDM1aTW">http://t.co/azvEDM1aTW</a> I would like to see it come true!</p>&mdash; Alejandro del Río (@adelriosantiago) <a href="https://twitter.com/adelriosantiago/statuses/446552907131809792">March 20, 2014</a></blockquote>',
 	'platforms' => 'fi-social-windows',
 	'thumbnail' => 'sightsound.jpg',
 	'screenshots' => array
@@ -498,10 +498,50 @@ $lang['treetalk'] = array
 	'author-location' => 'The world',	
 );
 
+$lang['vihas'] = array
+(
+	'title' => 'Help with the website design',
+	'value_proposition' => 'Vihas de Vida is a organization that needs help with their website',
+	'description' => 'Vihas de Vida is a mexican organization located at the heart of Guadalajara city. They need help with their website.',
+	'long_description' => 'Vihas de Vida is a mexican organization located at the heart of Guadalajara city.
+		Their mission is to help people know how to protect themselves from sexually transmitted diseases, among all the services they offer we can find: 
+		<ul>
+			<li>Sensibilization workshops to teach people about STD\'s.</li>
+			<li>HIV preemptive tests</li>
+			<li>Psicological advice to people who already have a STD.</li>
+		</ul>
+		They currently have a Wordpress website (<a href="http://vihasdevida.org">http://vihasdevida.org</a>) which is almost finalized, they need help giving the website the last touches.
+		The goals of this project are:
+		<br/><br/>
+		<ul>
+			<li>Finish the View team, Work areas and Events sections.</li>
+			<li>Translate the website into english.</li>
+		</ul>
+		You will learn Wordpress along with IT experts that will guide your through the journey.
+		',
+	'progress' => 70,
+	'stars' => 3,
+	'scope' => 'health',
+	'techs' => 'wordpress',
+	'backers' => '',
+	'platforms' => '',
+	'thumbnail' => 'vihas.jpg',
+	'screenshots' => array
+		(
+			'vihas.jpg|Vihas de Vida logo.'
+		),
+	'repository' => '',
+	'trello' => '',
+	'download_path' => '',
+	'author-name' => 'Vostlink team',
+	'author-picture' => 'twitter-logo-colorized.png',
+	'author-location' => 'The world',	
+);
+
 $lang['vostlink_trans'] = array
 (
 	'title' => 'Vostlink translations',
-	'value_proposition' => 'The website in multiple languages',	
+	'value_proposition' => 'The website in multiple languages',
 	'description' => 'Translating the website into multiple languages is the way we plan to have impact in many parts of the world.',
 	'long_description' => 'It might seem strange that Vostlink itself is a project on Vostlink, however we are a crowdsourcing platform for projects that are under development and we are currently on BETA. Join this project and help Vostlink to be translated into several languages while you learn HTML, PHP and the amazing framework Codeigniter!',
 	'progress' => 50,
