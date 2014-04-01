@@ -1,6 +1,47 @@
 <?php
 //Startup information
-$lang['value_proposition'] = "Change people's lives while learning";
+$lang['slogan'] = "Change people's lives while learning";
+$lang['value_proposition'] = "Find high-impact tech projects that will help real people";
+
+//Menus
+$lang['view_projects'] = "View projects";
+$lang['how_it_works'] = "How it works";
+$lang['blog'] = "Blog";
+$lang['about_us'] = "About us";
+
+//Filter section (the one in which we can select scopes or technologies)
+$lang['search_by_scope'] = "Search projects by scope";
+$lang['search_by_tech'] = "Search by technology";
+$lang['all'] = "Search by technology";
+$lang['other'] = "Other";
+$lang['here_are'] = "Here are some real projects that will help real people! Select one to know more about it";
+
+//About us page
+$lang['startup_about_us'] = "Vostlink is a non-profit startup that connects you to high-impact social projects that will change people's lives.";
+$lang['the_team'] = "The team";
+$lang['our_values'] = "
+	<h2>Our values</h2>
+	<p>Our two main values are:</p>
+	<h5 class='subheader'>1.- Impact</h5>
+	<p>We are always looking for high-impact social projects. Stuff that will really help people.</p>
+	<h5 class='subheader'>2.- Service</h5>
+	<p>We will walk and extra mile in order to know how to improve our surroundings.</p>
+	<h5 class='subheader'>3.- Friendliness</h5>
+	<p>We try to be \"reachable people\", feel free to write us, we read and answer all questions.</p>";
+$lang['our_internal_values'] = "
+	<h2>Our internal values</h2>
+	<p>Inside the team, all members adhere to the following core values:</p>
+	<h5 class='subheader'>1.- Ethics</h5>
+	<p>We strongly believe that ethics are the foundation of good startups.</p>
+	<h5 class='subheader'>2.- Integrity</h5>
+	<p>We are not only looking to grow the startup, we also want all members to grow personally. By this reason all Vostlink members are requiered to learn new roles. Everyone must code, design and propose new ideas to implement.</p>
+	<h5 class='subheader'>3.- Flat-leadership</h5>
+	<p>Vostlink is a flat-leadership startup, every member can give advice about where the startup should go. Everyone's opinion counts, if there are two opposite points of views we always reach an agreement as a team.</p>
+	<h5 class='subheader'>4.- Fairness</h5>
+	<p>We like to share the cake, and here it is divided equally. All members own an equal part of the startup.</p>";
+$lang['member_alex'] = "<p>Alex, <span class='subheader'>entrepreneur, engineer, geek and sushi-lover. Co-founder of Vostlink, he is always looking how to improve things.</span></p>";
+$lang['member_charlie'] = "<p>Juan Carlos, <span class='subheader'>engineer, student, passionate about electronics. Co-founder and project leader at the Microsoft's Imagine Cup.</span></p>";
+$lang['member_gera'] = "<p>Gerardo, <span class='subheader'>entrepreneur, businessman, team player and lean startup evangelist. Co-founder of Vostlink, always working on innovative ways to solve problems.</span></p>";
 
 //Generic texts
 $lang['progress'] = "Current progress";
@@ -8,11 +49,72 @@ $lang['progress_started'] = "This project just started. We have only the idea co
 $lang['progress_half'] = "This project is half on its way!";
 $lang['progress_almost'] = "This project is almost finished, still some work is needed.";
 $lang['progress_finished'] = "This project is practically finished! You can download it and use it!";
+$lang['footer'] = "<p>Vostlink<span class='gray-white'> | </span>2014<span class='gray-white'> | </span>All rights reserved.</p>";
+
+//How it works page
+$lang['slide_1'] = "
+	<h4>We can teach you new technologies</h4>
+	<p>If you want to learn how to code, create Android/iOS/Windows Phone apps, design websites, etc, then you are on the right place!</p>";
+$lang['slide_2'] = "
+	<h4>The impact</h4>
+	<p>Instead of joining a tutorial you will join a high-impact social project. Forget about creating a fake app, a fake restaurant webpage... See how your effort will help people.</p>";
+$lang['slide_3'] = "
+	<h4>Feeling not ready?</h4>
+	<p>If you dont feel skilled enough don't worry, you can learn at your own pace, we can take you from knowing nothing to start collaborating on the project of your selection.</p>";
+$lang['slide_4'] = "
+	<h4>How you will learn</h4>
+	<p>You can learn at your own pace along with the mentoring of IT professionals that will guide you to through the journey. For every completed challenge you will win awards and badges!</p>";
+$lang['slide_5'] = "
+	<h4>Did we forget to say that...</h4>
+	<ul>
+		<li>You are free to choose on which project to contribute</li>
+		<li>You can win badges while you learn</li>
+		<li>You can upload your own project</li>
+		<li>Your name will be included in the app</li>
+		<li>For each project done you can win karma coins!</li>
+	</ul>";
+
+//New idea texts
+$lang['new_idea_card'] = "Upload your idea!";
+$lang['new_idea_title'] = "Would you like to see your idea here? You can upload it!";
+
+$lang['modals'] = array
+(
+	//Common
+	'name' => 'Your name:',
+	'email' => 'Your E-mail:',
+	'idea_name' => 'The name of the idea:',
+	'what_it_does' => 'What it does:',
+	'comments' => 'Any comments? (optional):',
+	'i_want_to_collaborate' => 'I want to collaborate because...',
+	'submit' => 'Submit',
+	
+	//Advertise
+	'give_tweet' => 'You can help this project by giving us a tweet!',
+	
+	//Join project
+	'we_can' => 'We can take you from knowing nothing to start collaborating on this project!<br/>Join the BETA by filling this form:',
+	'select_level' => 'Select the difficulty level:',
+	'easy' => 'Easy',
+	'easy_text' => 'You know nothing about how to code and you want to learn starting with easy challenges.',
+	'challenge' => 'Challengeing',
+	'challenge_text' => 'You have an idea about coding and/or you want to have difficult challenges.',
+	'hard' => 'Hard coder',
+	'hard_text' => 'You know how to code and you want to start solving bugs and making improvements.',
+	'mentor' => 'Mentor',
+	'mentor_text' => 'You know the programming languages required for this project and and want to be a project manager by becoming a Mentor.',
+	
+	//Error messages
+	'required_string_error' => 'This field is required and must be a string.',
+	'required_email_error' => 'E-mail address invalid',
+);
 
 //Scopes
+$lang['all'] = 'All';
+
 $lang['health'] = array
 (
-	'title' => 'Health applications',
+	'title' => 'Health',
 	'description' => 'Any app that aims to improve people\'s health or helps them prevent future diseases.',
 	'icon' => 'fi-heart',
 	'image_id' => 1,
@@ -44,9 +146,25 @@ $lang['gaming'] = array
 
 $lang['special_needs'] = array
 (
-	'title' => 'Applications for special needs',
+	'title' => 'Special needs',
 	'description' => 'Applications for people with special needs like cerebral palsy, autism, blindness, muteness, etc.',
 	'icon' => 'fi-wheelchair',
+	'image_id' => 0,
+);
+
+$lang['entrepreneurship'] = array
+(
+	'title' => 'Entrepreneurship',
+	'description' => 'Entrepreneur webpages, landing pages or simple startups.',
+	'icon' => 'fi-lightbulb',
+	'image_id' => 0,
+);
+
+$lang['other'] = array
+(
+	'title' => 'Other',
+	'description' => 'Stuff that does not fits on any other category.',
+	'icon' => 'fi-thumbnails', //Dirty fix, it should be the question mark
 	'image_id' => 0,
 );
 
@@ -67,17 +185,17 @@ $lang['ios'] = array
 	'level' => 'Intermediate',
 );
 
-$lang['html5'] = array
+$lang['html'] = array
 (
-	'title' => 'HTML5',
+	'title' => 'HTML',
 	'description' => 'Create a webpage',
 	'image_id' => 22,
 	'level' => 'Beginner',
 );
 
-$lang['css3'] = array
+$lang['css'] = array
 (
-	'title' => 'CSS3',
+	'title' => 'CSS',
 	'description' => 'Give your website a design',
 	'image_id' => 23,
 	'level' => 'Intermediate',
@@ -488,7 +606,8 @@ $lang['treetalk'] = array
 	'thumbnail' => 'treetalk.jpg',
 	'screenshots' => array
 		(
-			'treetalk.jpg|The Tree Talk concept.'
+			'treetalk.jpg|The Tree Talk concept.',
+			'treetalk2.jpg|The Tree Talk concept.',
 		),		
 	'repository' => '',
 	'trello' => 'https://trello.com/b/Z1qihlIg/tree-talk',
@@ -498,10 +617,76 @@ $lang['treetalk'] = array
 	'author-location' => 'The world',	
 );
 
+$lang['vihas'] = array
+(
+	'title' => 'Help with the website design',
+	'value_proposition' => 'Vihas de Vida is a organization that needs help with their website',
+	'description' => 'Vihas de Vida is a mexican organization located at the heart of Guadalajara city. They need help with their website.',
+	'long_description' => 'Vihas de Vida is a mexican organization located at the heart of Guadalajara city.
+		Their mission is to help people know how to protect themselves from sexually transmitted diseases, among all the services they offer we can find: 
+		<ul>
+			<li>Sensibilization workshops to teach people about STD\'s.</li>
+			<li>HIV preemptive tests</li>
+			<li>Psicological advice to people who already have a STD.</li>
+		</ul>
+		They currently have a Wordpress website (<a href="http://vihasdevida.org">http://vihasdevida.org</a>) which is almost finalized, they need help giving the website the last touches.
+		The goals of this project are:
+		<br/><br/>
+		<ul>
+			<li>Finish the View team, Work areas and Events sections.</li>
+			<li>Translate the website into english.</li>
+		</ul>
+		You will learn Wordpress along with IT experts that will guide your through the journey.
+		',
+	'progress' => 70,
+	'stars' => 3,
+	'scope' => 'health',
+	'techs' => 'wordpress',
+	'backers' => '',
+	'platforms' => '',
+	'thumbnail' => 'vihas.jpg',
+	'screenshots' => array
+		(
+			'vihas.jpg|Vihas de Vida logo.'
+		),
+	'repository' => '',
+	'trello' => '',
+	'download_path' => '',
+	'author-name' => 'Vostlink team',
+	'author-picture' => 'twitter-logo-colorized.png',
+	'author-location' => 'The world',	
+);
+
+$lang['kosas'] = array
+(
+	'title' => 'Kosas',
+	'value_proposition' => 'Give away what you no longer need',
+	'description' => 'Give away what you no longer need to those who need it most. Win koins while doing so.',
+	'long_description' => 'There is a saying "One\'s trash is another\'s treasure" which turns out to be true in many cases. With Kosas people will be able to give away stuff that they no longer need to those who need it most.',
+	'progress' => 5,
+	'stars' => 3,
+	'scope' => 'entrepreneurship|other',
+	'techs' => 'html|css|php|git|mysql',
+	'backers' => '',
+	'platforms' => '',
+	'thumbnail' => 'kosas.jpg',
+	'screenshots' => array
+		(
+			'kosas.jpg|The webpage logo proposal.'
+		),
+	'repository' => '',
+	//'trello' => 'https://trello.com/b/m0YLdThb/vostlink-translations',
+	'trello' => '',
+	'download_path' => '',
+	'author-name' => 'Vostlink team',
+	'author-picture' => 'twitter-logo-colorized.png',
+	'author-location' => 'The world',	
+);
+
 $lang['vostlink_trans'] = array
 (
 	'title' => 'Vostlink translations',
-	'value_proposition' => 'The website in multiple languages',	
+	'value_proposition' => 'The website in multiple languages',
 	'description' => 'Translating the website into multiple languages is the way we plan to have impact in many parts of the world.',
 	'long_description' => 'It might seem strange that Vostlink itself is a project on Vostlink, however we are a crowdsourcing platform for projects that are under development and we are currently on BETA. Join this project and help Vostlink to be translated into several languages while you learn HTML, PHP and the amazing framework Codeigniter!',
 	'progress' => 50,
@@ -523,7 +708,18 @@ $lang['vostlink_trans'] = array
 	'author-location' => 'The world',	
 );
 
-//Projects
-//Seen on all projects
-$lang['project_scope'] = "Project scope";
-$lang['people_learned'] = "People learned";
+//Project page
+$lang['sketches'] = "Sketches:";
+$lang['description'] = "Description:";
+$lang['how_collaborate'] = "How you can collaborate:";
+$lang['advertise'] = "Advertise";
+$lang['advertise_text'] = "Advertise this project so that more people know about it. Even a single Tweet is important!";
+$lang['learn'] = "Learn";
+$lang['learn_text'] = "Join the challenges and start learning the techs you need to make this project reality.";
+
+$lang['scope'] = "Scope";
+$lang['technologies'] = "Technologies";
+$lang['progress'] = "Current progress";
+$lang['backers'] = "Backers";
+$lang['show_your_interest'] = "Show your interest in this project with a Tweet:";
+$lang['see_trello'] = "See what the students are doing";

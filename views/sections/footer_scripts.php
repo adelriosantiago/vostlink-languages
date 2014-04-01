@@ -10,6 +10,7 @@
 	<script src="/js/foundation/foundation.interchange.js"></script>
 	<script src="/js/foundation/foundation.abide.js"></script>
 	<script src="/js/foundation/foundation.dropdown.js"></script>
+	<script src="/js/foundation/foundation.accordion.js"></script>
 	<!-- <script src="/js/foundation/foundation.placeholder.js"></script> -->
 	<!-- <script src="/js/foundation/foundation.forms.js"></script> -->
 	<script src="/js/foundation/foundation.alert.js"></script>

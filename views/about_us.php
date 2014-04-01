@@ -4,20 +4,13 @@
 <div class='row'>
 	<div class='large-6 columns'>
 		<div class='row'>
-			<h2>About us</h2>
-			<p>Vostlink is a non-profit organization connects you to high-impact social projects that will change people's lives.</p>
+			<h2><?php echo lang('about_us'); ?></h2>
+			<p><?php echo lang('startup_about_us'); ?></p>
 			<!-- <p>Vostlink is a non-profit organization that wants you to learn coding while you work on real, high impact tech projects that will change people's lives.</p> -->
 			<!-- <p>Vostlink is a non-profit organization that connects people/organizations with a technological need with the people that has the skill or want the learn this technology.</p> -->
 		</div>
 		<div class='row'>
-			<h2>Our values</h2>
-			<p>Our two main values are:</p>
-			<h5 class='subheader'>1.- Impact</h5>
-			<p>We are always looking for high-impact social projects. Stuff that will really help people.</p>
-			<h5 class='subheader'>2.- Service</h5>
-			<p>We will walk and extra mile in order to know how to improve our surroundings.</p>
-			<h5 class='subheader'>3.- Friendliness</h5>
-			<p>We try to be "reachable people", feel free to write us, we read and answer all questions.</p>
+			<?php echo lang('our_values'); ?>
 			<!-- <h5 class='subheader'>1.- Service</h5>
 			<p>We believe that being serviciable is the way to enrich others people's lives. We will walk the extra mile in order to know how to improve our surroundings.</p>
 			<h5 class='subheader'>2.- Friendliness</h5>
@@ -27,7 +20,7 @@
 	
 	<div class='large-6 columns'>
 		<div id='team-container' class='row'>
-			<h2>The team</h2>
+			<h2><?php echo lang('the_team'); ?></h2>
 			<!-- <div class='large-6 columns'>
 				<img src='http://placehold.it/150x150'/>
 				<p>Vostboy <span class='subheader'>The Vostlink mascot</span></p>
@@ -40,9 +33,9 @@
 					</li>
 				</ul>
 			</div> -->
-			<div class='large-6 columns'>
-				<img src='/img/alex.jpg'/>
-				<p>Alex, <span class='subheader'>entrepreneur, engineer, geek and sushi-lover. Co-founder of Vostlink, he is always looking how to improve things.</span></p>
+			<div class='large-4 columns'>
+				<img src='/img/alex.jpg' class='rounded-image'>
+				<?php echo lang('member_alex'); ?>
 				<ul>
 					<li class='nobreak'>
 						<a href='https://www.facebook.com/a.delrio.santiago'><i class="fi-social-facebook size-24"></i></a>
@@ -52,9 +45,9 @@
 					</li>
 				</ul>
 			</div>
-			<div class='large-6 columns'>
-				<img src='/img/juan.jpg'/>
-				<p>Juan Carlos, <span class='subheader'>engineer, student, passionate about electronics. Co-founder and currently representing Vostlink at the Microsoft's Imagine Cup.</span></p>
+			<div class='large-4 columns'>
+				<img src='/img/juan.jpg' class='rounded-image'/>
+				<?php echo lang('member_charlie'); ?>
 				<ul>
 					<li class='nobreak'>
 						<a href='https://www.facebook.com/juancarlos.perezcastellanos'><i class="fi-social-facebook size-24"></i></a>
@@ -64,9 +57,9 @@
 					</li>
 				</ul>
 			</div>
-			<div class='large-6 columns'>
-				<img src='/img/gerardo.jpg'/>
-				<p>Gerardo, <span class='subheader'>entrepreneur, businessman, team player and lean startup evangelist. Co-founder of Vostlink, always working on innovative ways to solve problems.</span></p>
+			<div class='large-4 columns'>
+				<img src='/img/gerardo.jpg' class='rounded-image'/>
+				<?php echo lang('member_gera'); ?>
 				<ul>
 					<li class='nobreak'>
 						<a href='https://www.facebook.com/gerardo.delgadoglez'><i class="fi-social-facebook size-24"></i></a>
@@ -102,16 +95,7 @@
 			</div> -->
 		</div>
 		<div class='row'>
-			<h2>Our internal values</h2>
-			<p>Inside the team, all members adhere to the following core values:</p>
-			<h5 class='subheader'>1.- Ethics</h5>
-			<p>We strongly believe that ethics are the foundation of good startups.</p>
-			<h5 class='subheader'>2.- Integrity</h5>
-			<p>We are not only looking to grow the startup, we also want all members to grow personally. By this reason all Vostlink members are requiered to learn new roles. Everyone must code, design and propose new ideas to implement.</p>
-			<h5 class='subheader'>3.- Flat-leadership</h5>
-			<p>Vostlink is a flat-leadership startup, every member can give advice about where the startup should go. Everyone's opinion counts, if there are two opposite points of views we always reach an agreement as a team.</p>
-			<h5 class='subheader'>4.- Fairness</h5>
-			<p>We like to share the cake, and here it is divided equally. All members own an equal part of the startup.</p>
+			<?php echo lang('our_internal_values'); ?>
 		</div>
 	</div>
 </div>

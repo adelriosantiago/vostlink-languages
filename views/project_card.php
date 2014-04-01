@@ -12,7 +12,7 @@
 	<a href='/page/project/<?php echo $project; ?>'>
 		<?php
 			$image_path = lang($project, 'thumbnail');
-			echo "<img src='/img/$image_path' alt='No project image yet!'/>";
+			echo "<img src='/img/$image_path' alt='No project image yet!' class='rounded-image'/>";
 		?>		
 		<div class='project-card-title gray sticker-bottom absolute make-wide text-center'>
 			<h5><?php echo lang($project, 'title'); ?></h5>
